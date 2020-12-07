@@ -43,18 +43,18 @@ sudo make install
 sudo airmon-ng start wlan0
 sudo airodump-ng mon0
 ```
-![1](/uploads/2014/11/1.png)
+![](./images/1.png)
 
 ```
 sudo airodump-ng mon0
 ```
-![2](/uploads/2014/11/2.png)
+![](./images/2.png)
 
 根据上面的airodump搜索到的无线信号，然后可以挑信号强的进行破解（注意，要选择开了WPS功能的）
 ```
 sudo reaver -i mon0 -b 00:00:00:00:00:00 -a -S -vv -d2 -t 5 -c 11 
 ```
-![2-2](/uploads/2014/11/2-2.png)
+![](./images/2-2.png)
 
 如果想挂机破解，记得加上`nohup`命令后，可以断开ssh。然后剩下就是等待。
 ```
@@ -62,4 +62,4 @@ nohup sudo reaver -i mon0 -b 00:00:00:00:00:00 -a -S -vv -d2 -t 5 -c 11 -o fbi &
 ```
 如果破解成功后，打开输出的日志，就可以看到reaver出来的密码。
 
-![3](/uploads/2014/11/3.png)
+![](./images/3.png)
