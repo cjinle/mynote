@@ -8,7 +8,7 @@
 
 
 ### 添加网卡
-![vmbox3](uploads/2017/10/vmbox3.png)
+![](./images/vmbox3.png)
 
 ### debian配置网卡
 
