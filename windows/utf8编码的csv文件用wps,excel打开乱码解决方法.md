@@ -8,6 +8,6 @@
 后来猜想，是不是Excel可能没有认为打开的文件是UTF8编码的，那一般软件去测试文件，
 都是以为BOM来检测，后来用Notepad++ 【格式】->【转为UTF-8编码格式】再保存。
 
-![wps-utf8](/uploads/2016/10/wps-utf8.png)
+![wps-utf8](./images/wps-utf8.png)
 
 果然就正常了。
