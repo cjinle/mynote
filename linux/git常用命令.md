@@ -11,6 +11,8 @@ git push -u origin master
 git remote add origin https://github.com/cjinle/crawler.git
 git push -u origin master
 
+git blame file  # 查看文件历史修改记录
+
 git config --global user.name "Jinle Chen"
 git config --global user.email "xxxxx@gmail.com"
 git config --global credential.helper cache
@@ -67,6 +69,11 @@ git reset --hard HEAD~1
 git log #找到离没删文件前最近的commit id
 # 将操作过的其它文件转移
 git reset --hard "commit id"
+
+# 如果一不小reset错了，想反悔，可以进行下面操作
+git reflog 
+# 88a9cae HEAD@{0}: commit: xxx
+git reset --hard 88a9cae
 ```
 
 ### 使用vimdiff来git diff
