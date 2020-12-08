@@ -120,7 +120,24 @@ tar xjf backup.repo.tar.bz2
 git clone backup.repo yourrepo
 ```
 
+## 标签
+
+```sh
+git tag -a v1.0.0 # 然后打开编辑器，输入tag信息
+git log --decorate # 查看tag日志信息
+git push origin v1.0.0 # 把tag推送到远程仓库
+git push origin --tags # 把所有tag推送到远程仓库
+
+git tag -d v1.0.0 # 删除tag
+
+```
+
+
+
+
+
 ### git server
+
 ```bash
 mkdir ipa-server.git
 cd ipa-server.git/
