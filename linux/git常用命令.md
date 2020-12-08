@@ -56,6 +56,7 @@ git merge branch_name # 合并某分支到当前分支
 git branch branchname <sha1-of-commit> # 按某次提交创建分支
 git branch branchname HEAD~3  # 前3次的提交创建分支
 git branch -d branch_name # 删除分支
+git push origin --delete branch_name # 删除远程仓库分支
 ```
 
 ### 代码回滚
