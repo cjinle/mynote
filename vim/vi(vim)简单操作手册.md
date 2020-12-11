@@ -164,4 +164,3 @@ vi  vim (增强版vi,现在各版本的linux都带有vim)
     vim -O a.txt b.txt          竖屏打开两文件
     vim a.txt +42               打开a.txt光标定到42行
 
-<!--more-->
