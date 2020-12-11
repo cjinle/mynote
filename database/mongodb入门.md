@@ -34,6 +34,9 @@ db.testcol.find();
 ```js
 db.testcol.find()
 db.testcol.findOne()
+
+db.testcol.find({"size.uom": "in"}) // 内嵌条件
+db.testcol.find({"size.h", {$lt: 15}})
 ```
 
 ### 增加数据
@@ -46,11 +49,18 @@ db.testcol.insertMany([{name:"zhangsan"},{name:"lisi"}])
 ### 修改数据
 ```js
 db.testcol.update({"name":"chenjinle"},{name:"cjinle"})
+
+db.testcol.updateOne()
+db.testcol.updateMany()
+db.testcol.replaceOne()
 ```
 
 ### 删除数据
-```js
+```jsp
 db.testcol.remove({"name":"zhangsan"})
+
+db.testcol.deleteOne()
+db.testcol.deleteMany()
 ```
 
 ## 备份恢复
