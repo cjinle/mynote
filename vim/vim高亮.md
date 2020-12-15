@@ -9,3 +9,18 @@
 : set filetype=mysql
 : set filetype=mysql
 ```
+
+## 指定文件后缀高亮
+
+```
+au BufNewFile,BufRead *.pl setf plsql
+```
+上面的配置意思是，打开`.pl`结尾的文件，
+以`plsql`语法高这来显示文件。
+
+## go语言高亮
+
+```
+cp -rv /usr/local/go/misc/vim/* /usr/share/vim/vim70/
+```
+
