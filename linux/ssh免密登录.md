@@ -12,6 +12,11 @@ ssh-keygen -t rsa -f ~/.ssh/my-ssh-key -C [USERNAME]
 
 然后生成`my-ssh-key`, `my-ssh-key.pub`公私钥
 
+### 复制公钥到远程服务器
+```
+ssh-copy-id -i ~/.ssh/my-ssh-key root@2.2.2.2
+```
+### 手动模式
 然后把my-ssh-key.pub内容添加到要登录的服务器B [USERNAME]/.ssh/authorized_keys文件内
 
 注意文件如果不存在，直接创建，authorized_keys的文件权限需要为600
