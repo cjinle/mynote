@@ -56,12 +56,18 @@ db.testcol.replaceOne()
 ```
 
 ### 删除数据
-```jsp
+```js
 db.testcol.remove({"name":"zhangsan"})
 
 db.testcol.deleteOne()
 db.testcol.deleteMany()
 ```
+
+### 创建索引
+```js
+db.testcol.createIndex({name:1})
+```
+
 
 ## 备份恢复
 

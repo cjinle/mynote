@@ -105,6 +105,11 @@ git add .
 
 # 使用他们的某一个文件
 git checkout --theirs path/to/file
+
+# 强制全部使用远程 
+git fetch --all
+git reset --hard origin/master
+git pull origin master
 ```
 
 ### 备份与回复
