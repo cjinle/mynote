@@ -25,3 +25,23 @@ sudo docker build -t chenjinle/main .
 ```sh
 sudo docker run --rm -it chenjinle/main
 ```
+
+
+## 构建已经编译好的程序
+
+### Dockerfile
+```Dockerfile
+FROM scratch
+WORKDIR $GOPATH/src/github.com/cjinle/test/json
+COPY . $GOPATH/src/github.com/cjinle/test/json
+CMD ["./main"]
+# CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
+```
+
+### 编译、测试
+
+```sh
+CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .  # 生成程序
+sudo docker build -t chenjinle/gojson . # 编译镜像
+sudo docker run --rm -it chenjinle/gojson  # 测试
+```
