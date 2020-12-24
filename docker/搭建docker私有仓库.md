@@ -17,3 +17,6 @@ sudo docker push localhost:5000/gojson:0.0.1-beta
 http://192.168.56.101:5000/v2/_catalog
 {"repositories":["gojson"]}
 ```
+
+
+
