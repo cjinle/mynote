@@ -15,6 +15,7 @@ name: "default"
 listen-client-urls: "http://192.168.122.1:2379"
 advertise-client-urls: "http://192.168.122.1:2379"
 ```
+[配置样例](https://github.com/etcd-io/etcd/blob/master/etcd.conf.yml.sample)
 
 ## 集群
 
