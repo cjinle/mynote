@@ -1,6 +1,11 @@
 # openssl加密解密
 
 
+## 生成私钥
+```
+openssl genrsa -out pri.pem 1024
+```
+
 ## 根据私钥生成公钥
 ```
 openssl rsa -in id_rsa -pubout -out cjinle.pub
