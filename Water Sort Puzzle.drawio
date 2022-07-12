@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T08:32:53.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fHnSxJoaJHbLMNoxy50I" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-12T08:40:19.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="9cnPcU-iShCSAn9lHK5O" version="20.0.4" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Water Sort Puzzle">
     <mxGraphModel dx="1339" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -197,6 +197,24 @@
         </mxCell>
         <mxCell id="-UPui0ApsHkDzABqv5SS-109" value="HideAnimation, Hide" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-UPui0ApsHkDzABqv5SS-106">
           <mxGeometry y="50" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="-UPui0ApsHkDzABqv5SS-119" value="LoadingPanel" style="html=1;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-UPui0ApsHkDzABqv5SS-120" value="RatingPopUp" style="html=1;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="540" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-UPui0ApsHkDzABqv5SS-121" value="PopUpPanel" style="html=1;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="580" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-UPui0ApsHkDzABqv5SS-122" value="ConsentPanel" style="html=1;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="625" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-UPui0ApsHkDzABqv5SS-123" value="PausePanel" style="html=1;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="670" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-UPui0ApsHkDzABqv5SS-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UPui0ApsHkDzABqv5SS-105" target="-UPui0ApsHkDzABqv5SS-79">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
